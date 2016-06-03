@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1525B761CFFBB4A0084237C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1525B751CFFBB4A0084237C /* main.m */; };
+		C1525B791CFFBB4A0084237C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1525B781CFFBB4A0084237C /* AppDelegate.m */; };
+		C1525B7C1CFFBB4A0084237C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1525B7B1CFFBB4A0084237C /* ViewController.m */; };
+		C1525B7F1CFFBB4A0084237C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1525B7D1CFFBB4A0084237C /* Main.storyboard */; };
+		C1525B811CFFBB4B0084237C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1525B801CFFBB4B0084237C /* Assets.xcassets */; };
+		C1525B841CFFBB4B0084237C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1525B821CFFBB4B0084237C /* LaunchScreen.storyboard */; };
+		C1525B8F1CFFBB4B0084237C /* cycriptTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1525B8E1CFFBB4B0084237C /* cycriptTestTests.m */; };
+		C1525B9A1CFFBC050084237C /* Cycript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1525B991CFFBC050084237C /* Cycript.framework */; settings = {ASSET_TAGS = (); }; };
+		C1525B9C1CFFBC160084237C /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1525B9B1CFFBC160084237C /* JavaScriptCore.framework */; };
+		C1525B9E1CFFBC220084237C /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C1525B9D1CFFBC220084237C /* libstdc++.6.0.9.tbd */; };
+		C1525BA31CFFC1640084237C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1525BA21CFFC1640084237C /* CoreGraphics.framework */; };
+		C1525BA51CFFC16A0084237C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1525BA41CFFC16A0084237C /* UIKit.framework */; };
+		C1525BA71CFFC1720084237C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1525BA61CFFC1720084237C /* Foundation.framework */; };
+		C1525BA91CFFD3E10084237C /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C1525BA81CFFD3E10084237C /* libc++abi.tbd */; };
+		C1525BAB1CFFD42C0084237C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C1525BAA1CFFD42C0084237C /* libsqlite3.tbd */; };
+		C1525BC71CFFD63B0084237C /* cycript in Resources */ = {isa = PBXBuildFile; fileRef = C1525BAD1CFFD63B0084237C /* cycript */; settings = {ASSET_TAGS = (); }; };
+		C1525BC81CFFD63B0084237C /* cycript-a32 in Resources */ = {isa = PBXBuildFile; fileRef = C1525BAE1CFFD63B0084237C /* cycript-a32 */; settings = {ASSET_TAGS = (); }; };
+		C1525BC91CFFD63B0084237C /* cycript-apl in Resources */ = {isa = PBXBuildFile; fileRef = C1525BAF1CFFD63B0084237C /* cycript-apl */; settings = {ASSET_TAGS = (); }; };
+		C1525BCA1CFFD63B0084237C /* cycript-pie in Resources */ = {isa = PBXBuildFile; fileRef = C1525BB01CFFD63B0084237C /* cycript-pie */; settings = {ASSET_TAGS = (); }; };
+		C1525BCB1CFFD63B0084237C /* MS.cy in Resources */ = {isa = PBXBuildFile; fileRef = C1525BB51CFFD63B0084237C /* MS.cy */; settings = {ASSET_TAGS = (); }; };
+		C1525BCC1CFFD63B0084237C /* NSLog.cy in Resources */ = {isa = PBXBuildFile; fileRef = C1525BB81CFFD63B0084237C /* NSLog.cy */; settings = {ASSET_TAGS = (); }; };
+		C1525BCD1CFFD63B0084237C /* cynject in Resources */ = {isa = PBXBuildFile; fileRef = C1525BB91CFFD63B0084237C /* cynject */; settings = {ASSET_TAGS = (); }; };
+		C1525BCE1CFFD63B0084237C /* linux in Resources */ = {isa = PBXBuildFile; fileRef = C1525BBB1CFFD63B0084237C /* linux */; settings = {ASSET_TAGS = (); }; };
+		C1525BD11CFFD63B0084237C /* libcycript.cy in Resources */ = {isa = PBXBuildFile; fileRef = C1525BBE1CFFD63B0084237C /* libcycript.cy */; settings = {ASSET_TAGS = (); }; };
+		C1525BD21CFFD63B0084237C /* libcycript.db in Resources */ = {isa = PBXBuildFile; fileRef = C1525BBF1CFFD63B0084237C /* libcycript.db */; settings = {ASSET_TAGS = (); }; };
+		C1525BD41CFFD63B0084237C /* libcycript.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = C1525BC11CFFD63B0084237C /* libcycript.jar */; settings = {ASSET_TAGS = (); }; };
+		C1525BD51CFFD63B0084237C /* libcycript.so in Resources */ = {isa = PBXBuildFile; fileRef = C1525BC21CFFD63B0084237C /* libcycript.so */; settings = {ASSET_TAGS = (); }; };
+		C1525BD61CFFD63B0084237C /* libJavaScriptCore.so in Resources */ = {isa = PBXBuildFile; fileRef = C1525BC31CFFD63B0084237C /* libJavaScriptCore.so */; settings = {ASSET_TAGS = (); }; };
+		C1525BD81CFFD63B0084237C /* unknown in Resources */ = {isa = PBXBuildFile; fileRef = C1525BC61CFFD63B0084237C /* unknown */; settings = {ASSET_TAGS = (); }; };
+		C1525BDA1CFFD6420084237C /* cycript in Resources */ = {isa = PBXBuildFile; fileRef = C1525BD91CFFD6420084237C /* cycript */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1525B8B1CFFBB4B0084237C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1525B691CFFBB4A0084237C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1525B701CFFBB4A0084237C;
+			remoteInfo = cycriptTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1525B711CFFBB4A0084237C /* cycriptTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cycriptTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1525B751CFFBB4A0084237C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1525B771CFFBB4A0084237C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1525B781CFFBB4A0084237C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1525B7A1CFFBB4A0084237C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1525B7B1CFFBB4A0084237C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1525B7E1CFFBB4A0084237C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1525B801CFFBB4B0084237C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1525B831CFFBB4B0084237C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1525B851CFFBB4B0084237C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1525B8A1CFFBB4B0084237C /* cycriptTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cycriptTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1525B8E1CFFBB4B0084237C /* cycriptTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cycriptTestTests.m; sourceTree = "<group>"; };
+		C1525B901CFFBB4B0084237C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1525B991CFFBC050084237C /* Cycript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cycript.framework; sourceTree = "<group>"; };
+		C1525B9B1CFFBC160084237C /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C1525B9D1CFFBC220084237C /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		C1525B9F1CFFBC970084237C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		C1525BA11CFFBCB40084237C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C1525BA21CFFC1640084237C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C1525BA41CFFC16A0084237C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1525BA61CFFC1720084237C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1525BA81CFFD3E10084237C /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		C1525BAA1CFFD42C0084237C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C1525BAD1CFFD63B0084237C /* cycript */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cycript; sourceTree = "<group>"; };
+		C1525BAE1CFFD63B0084237C /* cycript-a32 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cycript-a32"; sourceTree = "<group>"; };
+		C1525BAF1CFFD63B0084237C /* cycript-apl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "cycript-apl"; sourceTree = "<group>"; };
+		C1525BB01CFFD63B0084237C /* cycript-pie */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cycript-pie"; sourceTree = "<group>"; };
+		C1525BB51CFFD63B0084237C /* MS.cy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MS.cy; sourceTree = "<group>"; };
+		C1525BB81CFFD63B0084237C /* NSLog.cy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NSLog.cy; sourceTree = "<group>"; };
+		C1525BB91CFFD63B0084237C /* cynject */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cynject; sourceTree = "<group>"; };
+		C1525BBB1CFFD63B0084237C /* linux */ = {isa = PBXFileReference; lastKnownFileType = file; path = linux; sourceTree = "<group>"; };
+		C1525BBC1CFFD63B0084237C /* libcycript-sim.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libcycript-sim.dylib"; sourceTree = "<group>"; };
+		C1525BBE1CFFD63B0084237C /* libcycript.cy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libcycript.cy; sourceTree = "<group>"; };
+		C1525BBF1CFFD63B0084237C /* libcycript.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = libcycript.db; sourceTree = "<group>"; };
+		C1525BC11CFFD63B0084237C /* libcycript.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = libcycript.jar; sourceTree = "<group>"; };
+		C1525BC21CFFD63B0084237C /* libcycript.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = libcycript.so; sourceTree = "<group>"; };
+		C1525BC31CFFD63B0084237C /* libJavaScriptCore.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = libJavaScriptCore.so; sourceTree = "<group>"; };
+		C1525BC61CFFD63B0084237C /* unknown */ = {isa = PBXFileReference; lastKnownFileType = file; path = unknown; sourceTree = "<group>"; };
+		C1525BD91CFFD6420084237C /* cycript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cycript; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1525B6E1CFFBB4A0084237C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1525BAB1CFFD42C0084237C /* libsqlite3.tbd in Frameworks */,
+				C1525BA91CFFD3E10084237C /* libc++abi.tbd in Frameworks */,
+				C1525BD41CFFD63B0084237C /* libcycript.jar in Frameworks */,
+				C1525BA71CFFC1720084237C /* Foundation.framework in Frameworks */,
+				C1525BA51CFFC16A0084237C /* UIKit.framework in Frameworks */,
+				C1525BA31CFFC1640084237C /* CoreGraphics.framework in Frameworks */,
+				C1525B9E1CFFBC220084237C /* libstdc++.6.0.9.tbd in Frameworks */,
+				C1525B9C1CFFBC160084237C /* JavaScriptCore.framework in Frameworks */,
+				C1525B9A1CFFBC050084237C /* Cycript.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1525B871CFFBB4B0084237C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1525B681CFFBB4A0084237C = {
+			isa = PBXGroup;
+			children = (
+				C1525BD91CFFD6420084237C /* cycript */,
+				C1525BAC1CFFD63B0084237C /* Cycript.lib */,
+				C1525BAA1CFFD42C0084237C /* libsqlite3.tbd */,
+				C1525BA81CFFD3E10084237C /* libc++abi.tbd */,
+				C1525BA61CFFC1720084237C /* Foundation.framework */,
+				C1525BA41CFFC16A0084237C /* UIKit.framework */,
+				C1525BA21CFFC1640084237C /* CoreGraphics.framework */,
+				C1525BA11CFFBCB40084237C /* PrefixHeader.pch */,
+				C1525B9F1CFFBC970084237C /* libsqlite3.0.tbd */,
+				C1525B9D1CFFBC220084237C /* libstdc++.6.0.9.tbd */,
+				C1525B9B1CFFBC160084237C /* JavaScriptCore.framework */,
+				C1525B991CFFBC050084237C /* Cycript.framework */,
+				C1525B731CFFBB4A0084237C /* cycriptTest */,
+				C1525B8D1CFFBB4B0084237C /* cycriptTestTests */,
+				C1525B721CFFBB4A0084237C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1525B721CFFBB4A0084237C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1525B711CFFBB4A0084237C /* cycriptTest.app */,
+				C1525B8A1CFFBB4B0084237C /* cycriptTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1525B731CFFBB4A0084237C /* cycriptTest */ = {
+			isa = PBXGroup;
+			children = (
+				C1525B771CFFBB4A0084237C /* AppDelegate.h */,
+				C1525B781CFFBB4A0084237C /* AppDelegate.m */,
+				C1525B7A1CFFBB4A0084237C /* ViewController.h */,
+				C1525B7B1CFFBB4A0084237C /* ViewController.m */,
+				C1525B7D1CFFBB4A0084237C /* Main.storyboard */,
+				C1525B801CFFBB4B0084237C /* Assets.xcassets */,
+				C1525B821CFFBB4B0084237C /* LaunchScreen.storyboard */,
+				C1525B851CFFBB4B0084237C /* Info.plist */,
+				C1525B741CFFBB4A0084237C /* Supporting Files */,
+			);
+			path = cycriptTest;
+			sourceTree = "<group>";
+		};
+		C1525B741CFFBB4A0084237C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1525B751CFFBB4A0084237C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1525B8D1CFFBB4B0084237C /* cycriptTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1525B8E1CFFBB4B0084237C /* cycriptTestTests.m */,
+				C1525B901CFFBB4B0084237C /* Info.plist */,
+			);
+			path = cycriptTestTests;
+			sourceTree = "<group>";
+		};
+		C1525BAC1CFFD63B0084237C /* Cycript.lib */ = {
+			isa = PBXGroup;
+			children = (
+				C1525BAD1CFFD63B0084237C /* cycript */,
+				C1525BAE1CFFD63B0084237C /* cycript-a32 */,
+				C1525BAF1CFFD63B0084237C /* cycript-apl */,
+				C1525BB01CFFD63B0084237C /* cycript-pie */,
+				C1525BB11CFFD63B0084237C /* cycript0.9 */,
+				C1525BB91CFFD63B0084237C /* cynject */,
+				C1525BBA1CFFD63B0084237C /* l */,
+				C1525BBC1CFFD63B0084237C /* libcycript-sim.dylib */,
+				C1525BBE1CFFD63B0084237C /* libcycript.cy */,
+				C1525BBF1CFFD63B0084237C /* libcycript.db */,
+				C1525BC11CFFD63B0084237C /* libcycript.jar */,
+				C1525BC21CFFD63B0084237C /* libcycript.so */,
+				C1525BC31CFFD63B0084237C /* libJavaScriptCore.so */,
+				C1525BC51CFFD63B0084237C /* u */,
+			);
+			path = Cycript.lib;
+			sourceTree = "<group>";
+		};
+		C1525BB11CFFD63B0084237C /* cycript0.9 */ = {
+			isa = PBXGroup;
+			children = (
+				C1525BB21CFFD63B0084237C /* com */,
+				C1525BB61CFFD63B0084237C /* org */,
+			);
+			path = cycript0.9;
+			sourceTree = "<group>";
+		};
+		C1525BB21CFFD63B0084237C /* com */ = {
+			isa = PBXGroup;
+			children = (
+				C1525BB31CFFD63B0084237C /* saurik */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		C1525BB31CFFD63B0084237C /* saurik */ = {
+			isa = PBXGroup;
+			children = (
+				C1525BB41CFFD63B0084237C /* substrate */,
+			);
+			path = saurik;
+			sourceTree = "<group>";
+		};
+		C1525BB41CFFD63B0084237C /* substrate */ = {
+			isa = PBXGroup;
+			children = (
+				C1525BB51CFFD63B0084237C /* MS.cy */,
+			);
+			path = substrate;
+			sourceTree = "<group>";
+		};
+		C1525BB61CFFD63B0084237C /* org */ = {
+			isa = PBXGroup;
+			children = (
+				C1525BB71CFFD63B0084237C /* cycript */,
+			);
+			path = org;
+			sourceTree = "<group>";
+		};
+		C1525BB71CFFD63B0084237C /* cycript */ = {
+			isa = PBXGroup;
+			children = (
+				C1525BB81CFFD63B0084237C /* NSLog.cy */,
+			);
+			path = cycript;
+			sourceTree = "<group>";
+		};
+		C1525BBA1CFFD63B0084237C /* l */ = {
+			isa = PBXGroup;
+			children = (
+				C1525BBB1CFFD63B0084237C /* linux */,
+			);
+			path = l;
+			sourceTree = "<group>";
+		};
+		C1525BC51CFFD63B0084237C /* u */ = {
+			isa = PBXGroup;
+			children = (
+				C1525BC61CFFD63B0084237C /* unknown */,
+			);
+			path = u;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1525B701CFFBB4A0084237C /* cycriptTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1525B931CFFBB4B0084237C /* Build configuration list for PBXNativeTarget "cycriptTest" */;
+			buildPhases = (
+				C1525B6D1CFFBB4A0084237C /* Sources */,
+				C1525B6E1CFFBB4A0084237C /* Frameworks */,
+				C1525B6F1CFFBB4A0084237C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cycriptTest;
+			productName = cycriptTest;
+			productReference = C1525B711CFFBB4A0084237C /* cycriptTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1525B891CFFBB4B0084237C /* cycriptTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1525B961CFFBB4B0084237C /* Build configuration list for PBXNativeTarget "cycriptTestTests" */;
+			buildPhases = (
+				C1525B861CFFBB4B0084237C /* Sources */,
+				C1525B871CFFBB4B0084237C /* Frameworks */,
+				C1525B881CFFBB4B0084237C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1525B8C1CFFBB4B0084237C /* PBXTargetDependency */,
+			);
+			name = cycriptTestTests;
+			productName = cycriptTestTests;
+			productReference = C1525B8A1CFFBB4B0084237C /* cycriptTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1525B691CFFBB4A0084237C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "张永杰";
+				TargetAttributes = {
+					C1525B701CFFBB4A0084237C = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 834E95R3LK;
+					};
+					C1525B891CFFBB4B0084237C = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 834E95R3LK;
+						TestTargetID = C1525B701CFFBB4A0084237C;
+					};
+				};
+			};
+			buildConfigurationList = C1525B6C1CFFBB4A0084237C /* Build configuration list for PBXProject "cycriptTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1525B681CFFBB4A0084237C;
+			productRefGroup = C1525B721CFFBB4A0084237C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1525B701CFFBB4A0084237C /* cycriptTest */,
+				C1525B891CFFBB4B0084237C /* cycriptTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1525B6F1CFFBB4A0084237C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1525BD11CFFD63B0084237C /* libcycript.cy in Resources */,
+				C1525BCE1CFFD63B0084237C /* linux in Resources */,
+				C1525BDA1CFFD6420084237C /* cycript in Resources */,
+				C1525B841CFFBB4B0084237C /* LaunchScreen.storyboard in Resources */,
+				C1525BD21CFFD63B0084237C /* libcycript.db in Resources */,
+				C1525BD61CFFD63B0084237C /* libJavaScriptCore.so in Resources */,
+				C1525BCD1CFFD63B0084237C /* cynject in Resources */,
+				C1525BCC1CFFD63B0084237C /* NSLog.cy in Resources */,
+				C1525BD81CFFD63B0084237C /* unknown in Resources */,
+				C1525BCA1CFFD63B0084237C /* cycript-pie in Resources */,
+				C1525BC71CFFD63B0084237C /* cycript in Resources */,
+				C1525B811CFFBB4B0084237C /* Assets.xcassets in Resources */,
+				C1525BC81CFFD63B0084237C /* cycript-a32 in Resources */,
+				C1525BD51CFFD63B0084237C /* libcycript.so in Resources */,
+				C1525B7F1CFFBB4A0084237C /* Main.storyboard in Resources */,
+				C1525BC91CFFD63B0084237C /* cycript-apl in Resources */,
+				C1525BCB1CFFD63B0084237C /* MS.cy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1525B881CFFBB4B0084237C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1525B6D1CFFBB4A0084237C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1525B7C1CFFBB4A0084237C /* ViewController.m in Sources */,
+				C1525B791CFFBB4A0084237C /* AppDelegate.m in Sources */,
+				C1525B761CFFBB4A0084237C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1525B861CFFBB4B0084237C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1525B8F1CFFBB4B0084237C /* cycriptTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1525B8C1CFFBB4B0084237C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1525B701CFFBB4A0084237C /* cycriptTest */;
+			targetProxy = C1525B8B1CFFBB4B0084237C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1525B7D1CFFBB4A0084237C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1525B7E1CFFBB4A0084237C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1525B821CFFBB4B0084237C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1525B831CFFBB4B0084237C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1525B911CFFBB4B0084237C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1525B921CFFBB4B0084237C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1525B941CFFBB4B0084237C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = CYCRIPT_ENABLE;
+				INFOPLIST_FILE = cycriptTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cycript.lib",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyj.cycriptT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1525B951CFFBB4B0084237C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = CYCRIPT_ENABLE;
+				INFOPLIST_FILE = cycriptTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cycript.lib",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyj.cycriptT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C1525B971CFFBB4B0084237C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cycriptTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "------.cycriptTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cycriptTest.app/cycriptTest";
+			};
+			name = Debug;
+		};
+		C1525B981CFFBB4B0084237C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cycriptTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "------.cycriptTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cycriptTest.app/cycriptTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1525B6C1CFFBB4A0084237C /* Build configuration list for PBXProject "cycriptTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1525B911CFFBB4B0084237C /* Debug */,
+				C1525B921CFFBB4B0084237C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1525B931CFFBB4B0084237C /* Build configuration list for PBXNativeTarget "cycriptTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1525B941CFFBB4B0084237C /* Debug */,
+				C1525B951CFFBB4B0084237C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1525B961CFFBB4B0084237C /* Build configuration list for PBXNativeTarget "cycriptTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1525B971CFFBB4B0084237C /* Debug */,
+				C1525B981CFFBB4B0084237C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1525B691CFFBB4A0084237C /* Project object */;
+}
